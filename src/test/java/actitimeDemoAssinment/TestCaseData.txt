@@ -1,0 +1,64 @@
+homePageOpen :-  Test Case is passed.
+acturl :- http://127.0.0.1/user/submit_tt.do
+expUrl :- http://127.0.0.1/user/submit_tt.do
+
+taskPageOpen :-  Test Case is passed.
+acturl :- http://127.0.0.1/tasks/otasklist.do
+expUrl :- http://127.0.0.1/tasks/otasklist.do
+
+projectAndCustomerPageOpen :-  Test Case is passed.
+acturl :- http://127.0.0.1/project/customers_projects.do
+expUrl :- http://127.0.0.1/project/customers_projects.do
+
+newCustomerPageOpen :-  Test Case is passed.
+acturl :- http://127.0.0.1/project/customeradd.do?resetForm=true
+expUrl :- http://127.0.0.1/project/customeradd.do?resetForm=true
+
+customerCreatedMassege :-  Test Case is passed.
+acturl :- Customer "MindTree" has been successfully created.
+expUrl :- Customer "MindTree" has been successfully created.
+
+customerDisplay :-  Test Case is passed.
+acturl :- Display
+expUrl :- Display
+
+projectCreatePageOpen :-  Test Case is passed.
+acturl :- http://127.0.0.1/project/projectadd.do?resetForm=true&customerId=0
+expUrl :- http://127.0.0.1/project/projectadd.do?resetForm=true&customerId=0
+
+projectCreatedMassege :-  Test Case is passed.
+acturl :- Project "MahaMetro" has been successfully created.
+expUrl :- Project "MahaMetro" has been successfully created.
+
+projectDisplay :-  Test Case is passed.
+acturl :- Display
+expUrl :- Display
+
+taskCreatedMassege :-  Test Case is passed.
+acturl :- 1 new task was added to the customer "MindTree", project "MahaMetro".
+expUrl :- 1 new task was added to the customer "MindTree", project "MahaMetro".
+
+taskDisplay :-  Test Case is passed.
+acturl :- Display
+expUrl :- Display
+
+taskDeletedMassege :-  Test Case is passed.
+acturl :- Selected tasks have been successfully deleted.
+expUrl :- Selected tasks have been successfully deleted.
+
+deletedTaskNotDisplay :-  Test Case is passed.
+acturl :- NotDisplay
+expUrl :- NotDisplay
+
+customerProjectDeletedMassege :-  Test Case is passed.
+acturl :- Selected customers and projects have been successfully deleted.
+expUrl :- Selected customers and projects have been successfully deleted.
+
+deletedCustomerNotDisplay :-  Test Case is passed.
+acturl :- NotDisplay
+expUrl :- NotDisplay
+
+LogOut :-  Test Case is passed.
+acturl :- http://127.0.0.1/login.do
+expUrl :- http://127.0.0.1/login.do
+
